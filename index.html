@@ -38,110 +38,110 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 2rem;
-      padding: 0.5rem 0 0.2rem 0;
+      gap: 2.5rem;
+      padding: 1rem 0;
       z-index: 20;
       backdrop-filter: blur(10px);
-      border-bottom: 1.5px solid #23234a;
+      border-bottom: 2px solid #23234a;
       overflow-x: auto;
     }
     .nav-tab {
       color: #fff9;
       font-weight: 700;
       text-decoration: none;
-      font-size: 1.1rem;
-      letter-spacing: 0.04em;
+      font-size: 1.3rem;
+      letter-spacing: 0.05em;
       transition: color 0.23s, background 0.2s, box-shadow 0.2s, transform 0.2s;
-      padding: 0.3em 1.6em 0.65em 1.6em;
-      border-radius: 16px 16px 0 0;
+      padding: 0.5em 2em;
+      border-radius: 20px 20px 0 0;
       background: transparent;
-      border-bottom: 2.5px solid transparent;
+      border-bottom: 3px solid transparent;
     }
     .nav-tab.active,
     .nav-tab:hover {
       color: #fff;
       background: var(--gradient);
       box-shadow: 0 2px 22px #4caf5033;
-      border-bottom: 2.5px solid #fff;
-      transform: translateY(-4px) scale(1.08);
+      border-bottom: 3px solid #fff;
+      transform: translateY(-4px) scale(1.1);
     }
     header {
       background: var(--gradient);
       text-align: center;
-      padding: 7rem 2rem 4rem 2rem;
+      padding: 8rem 3rem 5rem 3rem;
       box-shadow: 0 5px 32px rgba(0,0,0,0.5);
       border-radius: 0 0 var(--radius-lg) var(--radius-lg);
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
     header h1 {
-      font-size: 4.1rem;
+      font-size: 5rem;
       color: #fff;
-      margin-bottom: 0.7rem;
-      letter-spacing: 0.04em;
+      margin-bottom: 1rem;
+      letter-spacing: 0.05em;
       text-shadow: 0 4px 32px #4caf5088;
       font-weight: 900;
     }
     header p {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       color: #ffecec;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
       text-shadow: 0 2px 12px #4caf5055;
     }
     .btn {
       background: var(--accent);
       color: #000;
-      padding: 18px 48px;
+      padding: 20px 60px;
       border-radius: 50px;
       font-weight: bold;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       text-decoration: none;
       display: inline-block;
-      margin-top: 1.5rem;
+      margin-top: 2rem;
       transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
       box-shadow: 0 0 32px #ff980080, 0 2px 8px #0003;
     }
     .btn:hover {
       background: #fb8c00;
-      transform: scale(1.06) translateY(-2px);
+      transform: scale(1.08) translateY(-2px);
       box-shadow: 0 0 48px #ff9800cc, 0 4px 16px #0004;
     }
     .container {
-      max-width: 1100px;
-      margin: 6rem auto 0 auto;
-      padding: 3rem 2rem 2rem 2rem;
+      max-width: 1200px;
+      margin: 7rem auto 0 auto;
+      padding: 4rem 3rem 3rem 3rem;
       display: flex;
       flex-direction: column;
-      gap: 3.5rem;
+      gap: 4rem;
     }
     .info-block {
       background: var(--bg-card);
       border-radius: var(--radius-lg);
-      border: 1.5px solid var(--fade);
-      padding: 2.5rem 2rem;
+      border: 2px solid var(--fade);
+      padding: 3rem 2.5rem;
       box-shadow: 0 0 60px 0 #0007, 0 2px 16px #4caf5022;
       backdrop-filter: blur(14px) saturate(1.1);
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
       width: 100%;
     }
     .info-block h2 {
       color: var(--primary);
-      margin-bottom: 1rem;
-      font-size: 1.7rem;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
       font-weight: 800;
-      letter-spacing: 0.03em;
+      letter-spacing: 0.04em;
     }
     .info-block img {
       max-width: 100%;
       border-radius: var(--radius-sm);
       box-shadow: 0 2px 16px #0005;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
     footer {
-      margin-top: 5rem;
+      margin-top: 6rem;
       color: #aaa;
       text-align: center;
-      padding: 2rem 0 1.5rem 0;
-      font-size: 1rem;
+      padding: 3rem 0 2rem 0;
+      font-size: 1.2rem;
       opacity: 0.88;
     }
   </style>
@@ -156,47 +156,58 @@
   </nav>
   <header>
     <h1>Ministry Tools</h1>
-    <p>Empowering your workflow with powerful tools</p>
+    <p>Empowering your workflow with powerful tools that are designed to make your life easier.</p>
     <a href="#tools" class="btn">Explore Tools</a>
   </header>
   <div class="container">
     <section id="about" class="info-block">
       <h2>About Ministry Tools</h2>
-      <p>Ministry Tools is a curated collection of utilities designed to enhance productivity and simplify tasks.</p>
-      <p>Created by <b>Max Schaeffer</b>, this project aims to provide free, accessible tools for developers and users.</p>
+      <p>Ministry Tools is a curated collection of utilities designed to enhance productivity and simplify tasks for developers and users alike.</p>
+      <p>Created by <b>Max Schaeffer</b>, this project aims to provide free, accessible tools that are lightweight, efficient, and easy to use.</p>
+      <p>Our mission is to empower individuals with tools that save time and effort, allowing them to focus on what truly matters.</p>
     </section>
     <section id="tools" class="info-block">
       <h2>Available Tools</h2>
-      <p>We currently offer <b>3 tools</b> that are designed to streamline your workflow:</p>
+      <p>We currently offer <b>5 tools</b> that are designed to streamline your workflow:</p>
       <ul>
-        <li>Tool 1: Description of Tool 1</li>
-        <li>Tool 2: Description of Tool 2</li>
-        <li>Tool 3: Description of Tool 3</li>
+        <li><b>🧠 Prompt Generator:</b> Create engaging and creative prompts for various use cases effortlessly.</li>
+        <li><b>🎨 Image Generator:</b> Generate stunning visuals and illustrations using AI-powered tools.</li>
+        <li><b>🔍 SRT Checker:</b> Validate and ensure the accuracy of your subtitle files with ease.</li>
+        <li><b>🌐 SRT Translator:</b> Translate subtitle files into multiple languages quickly and accurately.</li>
+        <li><b>🤖 AI Chat Bot:</b> Interact with an intelligent chatbot for assistance, queries, and more.</li>
       </ul>
+      <p>Each tool is crafted with simplicity and functionality in mind, ensuring that you can achieve more with less effort.</p>
     </section>
     <section id="demo" class="info-block">
       <h2>Demo & Motivation</h2>
       <p><b>How do the tools work?</b></p>
-      <p>Each tool is designed with simplicity and efficiency in mind. They are lightweight, portable, and easy to use.</p>
-      <p><b>Why did I create Ministry Tools?</b></p>
-      <p>Inspired by Max Schaeffer, I wanted to provide free, accessible tools for developers and users who need reliable solutions without unnecessary complexity.</p>
+      <p>Our tools are designed to be intuitive and user-friendly, requiring minimal setup and offering maximum efficiency.</p>
+      <p><b>Why did we create Ministry Tools?</b></p>
+      <p>Inspired by Max Schaeffer's vision, we wanted to provide free, accessible tools for developers and users who need reliable solutions without unnecessary complexity.</p>
       <img src="demo-image.jpg" alt="Demo Image">
     </section>
     <section id="features" class="info-block">
       <h2>Features</h2>
       <ul>
-        <li>Lightweight and portable tools</li>
-        <li>Easy-to-use interfaces</li>
-        <li>Designed for productivity and efficiency</li>
+        <li>Lightweight and portable tools that can be used anywhere.</li>
+        <li>Easy-to-use interfaces designed for simplicity.</li>
+        <li>Optimized for productivity and efficiency in every task.</li>
+        <li>Free and accessible to everyone.</li>
       </ul>
     </section>
     <section id="contact" class="info-block">
       <h2>Contact Us</h2>
-      <p>Reach out to us at <a href="mailto:contact@ministrytools.com">contact@ministrytools.com</a>.</p>
+      <p>We would love to hear from you! Reach out to us at <a href="mailto:contact@ministrytools.com">contact@ministrytools.com</a>.</p>
+      <p>Follow us on social media for updates and new tools:</p>
+      <ul>
+        <li><a href="https://twitter.com/ministrytools" target="_blank">Twitter</a></li>
+        <li><a href="https://facebook.com/ministrytools" target="_blank">Facebook</a></li>
+        <li><a href="https://instagram.com/ministrytools" target="_blank">Instagram</a></li>
+      </ul>
     </section>
   </div>
   <footer>
-    &copy; 2025 Ministry Tools. All rights reserved. Created by Max Schaeffer.
+    &copy; 2025 Ministry Tools. All rights reserved. Created by Max Schaeffer. Empowering productivity, one tool at a time.
   </footer>
 </body>
 </html>
