@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ToolsWT - Your Toolkit</title>
+  <title>Ministry Tools</title>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <style>
     :root {
-      --primary: #007bff;
-      --accent: #28a745;
+      --primary: #4caf50;
+      --accent: #ff9800;
       --bg-dark: #1c1c2b;
       --bg-card: rgba(255,255,255,0.07);
       --nav-bg: rgba(20,20,30,0.88);
@@ -17,7 +17,7 @@
       --radius-lg: 26px;
       --radius-sm: 14px;
       --fade: rgba(255,255,255,0.13);
-      --gradient: linear-gradient(135deg, #007bff 0%, #28a745 100%);
+      --gradient: linear-gradient(135deg, #4caf50 0%, #ff9800 100%);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { height: 100%; }
@@ -61,7 +61,7 @@
     .nav-tab:hover {
       color: #fff;
       background: var(--gradient);
-      box-shadow: 0 2px 22px #007bff33;
+      box-shadow: 0 2px 22px #4caf5033;
       border-bottom: 2.5px solid #fff;
       transform: translateY(-4px) scale(1.08);
     }
@@ -78,14 +78,14 @@
       color: #fff;
       margin-bottom: 0.7rem;
       letter-spacing: 0.04em;
-      text-shadow: 0 4px 32px #007bff88;
+      text-shadow: 0 4px 32px #4caf5088;
       font-weight: 900;
     }
     header p {
       font-size: 1.5rem;
       color: #ffecec;
       margin-bottom: 1.5rem;
-      text-shadow: 0 2px 12px #007bff55;
+      text-shadow: 0 2px 12px #4caf5055;
     }
     .btn {
       background: var(--accent);
@@ -98,12 +98,12 @@
       display: inline-block;
       margin-top: 1.5rem;
       transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
-      box-shadow: 0 0 32px #28a74580, 0 2px 8px #0003;
+      box-shadow: 0 0 32px #ff980080, 0 2px 8px #0003;
     }
     .btn:hover {
-      background: #218838;
+      background: #fb8c00;
       transform: scale(1.06) translateY(-2px);
-      box-shadow: 0 0 48px #28a745cc, 0 4px 16px #0004;
+      box-shadow: 0 0 48px #ff9800cc, 0 4px 16px #0004;
     }
     .container {
       max-width: 1100px;
@@ -118,7 +118,7 @@
       border-radius: var(--radius-lg);
       border: 1.5px solid var(--fade);
       padding: 2.5rem 2rem;
-      box-shadow: 0 0 60px 0 #0007, 0 2px 16px #007bff22;
+      box-shadow: 0 0 60px 0 #0007, 0 2px 16px #4caf5022;
       backdrop-filter: blur(14px) saturate(1.1);
       margin-bottom: 1.5rem;
       width: 100%;
@@ -129,6 +129,44 @@
       font-size: 1.7rem;
       font-weight: 800;
       letter-spacing: 0.03em;
+    }
+    .tool-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--bg-card);
+      border-radius: var(--radius-sm);
+      padding: 1.5rem;
+      box-shadow: 0 1px 16px #0005;
+      margin-bottom: 1rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .tool-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2px 24px #4caf5033;
+    }
+    .tool-card h3 {
+      color: var(--accent);
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .tool-card p {
+      color: #ccc;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    .tool-card a {
+      background: var(--accent);
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    .tool-card a:hover {
+      background: #fb8c00;
+      box-shadow: 0 0 16px #ff9800cc;
     }
     footer {
       margin-top: 5rem;
@@ -147,30 +185,46 @@
     <a href="#contact" class="nav-tab">Contact</a>
   </nav>
   <header>
-    <h1>ToolsWT</h1>
-    <p>Your hub for powerful tools</p>
+    <h1>Ministry Tools</h1>
+    <p>Empowering your workflow with powerful tools</p>
     <a href="#tools" class="btn">Explore Tools</a>
   </header>
   <div class="container">
     <section id="about" class="info-block">
-      <h2>About ToolsWT</h2>
-      <p>ToolsWT is a collection of powerful utilities designed to simplify your workflow and enhance productivity.</p>
+      <h2>About Ministry Tools</h2>
+      <p>Ministry Tools is a curated collection of utilities designed to enhance productivity and simplify tasks.</p>
     </section>
     <section id="tools" class="info-block">
-      <h2>Our Tools</h2>
-      <ul>
-        <li>Tool 1: Description of Tool 1</li>
-        <li>Tool 2: Description of Tool 2</li>
-        <li>Tool 3: Description of Tool 3</li>
-      </ul>
+      <h2>Available Tools</h2>
+      <div class="tool-card">
+        <div>
+          <h3>Tool 1</h3>
+          <p>A brief description of Tool 1.</p>
+        </div>
+        <a href="https://github.com/yourusername/tool1/releases/latest" target="_blank">Download</a>
+      </div>
+      <div class="tool-card">
+        <div>
+          <h3>Tool 2</h3>
+          <p>A brief description of Tool 2.</p>
+        </div>
+        <a href="https://github.com/yourusername/tool2/releases/latest" target="_blank">Download</a>
+      </div>
+      <div class="tool-card">
+        <div>
+          <h3>Tool 3</h3>
+          <p>A brief description of Tool 3.</p>
+        </div>
+        <a href="https://github.com/yourusername/tool3/releases/latest" target="_blank">Download</a>
+      </div>
     </section>
     <section id="contact" class="info-block">
       <h2>Contact Us</h2>
-      <p>Reach out to us at <a href="mailto:contact@toolswt.com">contact@toolswt.com</a>.</p>
+      <p>Reach out to us at <a href="mailto:contact@ministrytools.com">contact@ministrytools.com</a>.</p>
     </section>
   </div>
   <footer>
-    &copy; 2025 ToolsWT. All rights reserved.
+    &copy; 2025 Ministry Tools. All rights reserved.
   </footer>
 </body>
 </html>
