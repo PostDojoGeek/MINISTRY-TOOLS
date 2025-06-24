@@ -29,7 +29,8 @@ First official release of the all-in-one toolkit for multilingual spiritual cont
 ----------------------------------------
 
 ⚠️ Disclaimer  
-These tools are for **non-commercial, educational, and ministry** use only.  
-If you try to turn this into a subscription app for $9.99/month… we pray for your soul.
+These tools are provided for **non-commercial, educational, and ministry-related** purposes only.
 
-> _“Blessed are the devs who ship clean code, for theirs is the kingdom of maintainability.”_
+Any attempt to commercialize, resell, or distribute this toolkit—whether as a product, subscription service, or bundled offering—without explicit written permission is strictly prohibited and may result in **legal action**.
+
+> _“Blessed are those who share freely. Cursed are those who profit off what was meant to be a gift.”_
