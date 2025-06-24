@@ -130,43 +130,11 @@
       font-weight: 800;
       letter-spacing: 0.03em;
     }
-    .tool-card {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background: var(--bg-card);
+    .info-block img {
+      max-width: 100%;
       border-radius: var(--radius-sm);
-      padding: 1.5rem;
-      box-shadow: 0 1px 16px #0005;
-      margin-bottom: 1rem;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .tool-card:hover {
-      transform: scale(1.05);
-      box-shadow: 0 2px 24px #4caf5033;
-    }
-    .tool-card h3 {
-      color: var(--accent);
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    .tool-card p {
-      color: #ccc;
-      font-size: 1rem;
-      margin-bottom: 0.5rem;
-    }
-    .tool-card a {
-      background: var(--accent);
-      color: #000;
-      padding: 0.8rem 1.5rem;
-      border-radius: 50px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: background 0.2s, box-shadow 0.2s;
-    }
-    .tool-card a:hover {
-      background: #fb8c00;
-      box-shadow: 0 0 16px #ff9800cc;
+      box-shadow: 0 2px 16px #0005;
+      margin-top: 1rem;
     }
     footer {
       margin-top: 5rem;
@@ -182,6 +150,8 @@
   <nav>
     <a href="#about" class="nav-tab active">About</a>
     <a href="#tools" class="nav-tab">Tools</a>
+    <a href="#demo" class="nav-tab">Demo</a>
+    <a href="#features" class="nav-tab">Features</a>
     <a href="#contact" class="nav-tab">Contact</a>
   </nav>
   <header>
@@ -193,30 +163,32 @@
     <section id="about" class="info-block">
       <h2>About Ministry Tools</h2>
       <p>Ministry Tools is a curated collection of utilities designed to enhance productivity and simplify tasks.</p>
+      <p>Created by <b>Max Schaeffer</b>, this project aims to provide free, accessible tools for developers and users.</p>
     </section>
     <section id="tools" class="info-block">
       <h2>Available Tools</h2>
-      <div class="tool-card">
-        <div>
-          <h3>Tool 1</h3>
-          <p>A brief description of Tool 1.</p>
-        </div>
-        <a href="https://github.com/yourusername/tool1/releases/latest" target="_blank">Download</a>
-      </div>
-      <div class="tool-card">
-        <div>
-          <h3>Tool 2</h3>
-          <p>A brief description of Tool 2.</p>
-        </div>
-        <a href="https://github.com/yourusername/tool2/releases/latest" target="_blank">Download</a>
-      </div>
-      <div class="tool-card">
-        <div>
-          <h3>Tool 3</h3>
-          <p>A brief description of Tool 3.</p>
-        </div>
-        <a href="https://github.com/yourusername/tool3/releases/latest" target="_blank">Download</a>
-      </div>
+      <p>We currently offer <b>3 tools</b> that are designed to streamline your workflow:</p>
+      <ul>
+        <li>Tool 1: Description of Tool 1</li>
+        <li>Tool 2: Description of Tool 2</li>
+        <li>Tool 3: Description of Tool 3</li>
+      </ul>
+    </section>
+    <section id="demo" class="info-block">
+      <h2>Demo & Motivation</h2>
+      <p><b>How do the tools work?</b></p>
+      <p>Each tool is designed with simplicity and efficiency in mind. They are lightweight, portable, and easy to use.</p>
+      <p><b>Why did I create Ministry Tools?</b></p>
+      <p>Inspired by Max Schaeffer, I wanted to provide free, accessible tools for developers and users who need reliable solutions without unnecessary complexity.</p>
+      <img src="demo-image.jpg" alt="Demo Image">
+    </section>
+    <section id="features" class="info-block">
+      <h2>Features</h2>
+      <ul>
+        <li>Lightweight and portable tools</li>
+        <li>Easy-to-use interfaces</li>
+        <li>Designed for productivity and efficiency</li>
+      </ul>
     </section>
     <section id="contact" class="info-block">
       <h2>Contact Us</h2>
@@ -224,7 +196,7 @@
     </section>
   </div>
   <footer>
-    &copy; 2025 Ministry Tools. All rights reserved.
+    &copy; 2025 Ministry Tools. All rights reserved. Created by Max Schaeffer.
   </footer>
 </body>
 </html>
